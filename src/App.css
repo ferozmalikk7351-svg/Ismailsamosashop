@@ -1161,8 +1161,54 @@
     grid-template-columns: 1fr;
   }
 
+  /* ---- Hero mobile overrides ---- */
+  .hero {
+    min-height: 100svh;
+    align-items: flex-end;
+    padding-bottom: 7rem;
+  }
+
+  .hero-side-badge {
+    display: none;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .hero-text-container {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hero-tag {
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    padding: 0.3rem 0.8rem;
+    margin-bottom: 0.8rem;
+    justify-content: center;
+    display: inline-flex;
+  }
+
   .hero-title {
-    font-size: 2rem;
+    font-size: clamp(1.6rem, 8vw, 2.2rem);
+    line-height: 1.25;
+    margin-bottom: 0.9rem;
+  }
+
+  .hero-description {
+    font-size: 0.92rem;
+    line-height: 1.65;
+    margin-bottom: 1.4rem;
+    max-width: 100%;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .scroll-indicator {
+    bottom: 1.5rem;
   }
 
   .footer-grid {
@@ -1190,5 +1236,36 @@
 
   .container {
     padding: 0 1.2rem;
+  }
+}
+
+/* ---- Extra small phones ---- */
+@media (max-width: 480px) {
+  .hero {
+    padding-bottom: 6rem;
+  }
+
+  .hero-title {
+    font-size: clamp(1.45rem, 9vw, 1.9rem);
+  }
+
+  .hero-description {
+    font-size: 0.85rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero-tag {
+    font-size: 0.6rem;
+    letter-spacing: 1.5px;
   }
 }
