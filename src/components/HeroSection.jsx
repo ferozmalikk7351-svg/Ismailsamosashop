@@ -36,15 +36,6 @@ const HeroSection = () => {
             {/* Floating Particles */}
             <div className="hero-particles" ref={particlesRef}></div>
 
-            {/* Floating Side Badge */}
-            <div className="hero-side-badge">
-                <div className="badge-inner">
-                    <Star size={14} fill="currentColor" />
-                    <span>Homemade</span>
-                    <Star size={14} fill="currentColor" />
-                </div>
-                <span className="badge-sub">Premium Quality</span>
-            </div>
 
             {/* Main Content */}
             <div className="container hero-content">
