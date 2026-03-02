@@ -40,22 +40,15 @@ const HeroSection = () => {
             {/* ── Centred content ── */}
             <div className="hero-center">
 
-                {/* Top label */}
-                <p className="hero-label hero-anim" style={{ animationDelay: '0.1s' }}>
-                    <span className="hero-label-line" />
-                    Est. 1989 · Okara, Pakistan
-                    <span className="hero-label-line" />
-                </p>
-
                 {/* Main title */}
-                <h1 className="hero-headline hero-anim" style={{ animationDelay: '0.3s' }}>
-                    Crafted Fresh.<br />
-                    <span className="hero-headline-gold">Loved for 35 Years.</span>
+                <h1 className="hero-headline hero-anim" style={{ animationDelay: '0.1s' }}>
+                    35 Years of Taste<br />
+                    <span className="hero-headline-gold">&amp; Tradition.</span>
                 </h1>
 
                 {/* Sub-text */}
-                <p className="hero-sub hero-anim" style={{ animationDelay: '0.5s' }}>
-                    The finest homemade samosas in Lahore — made with pure desi ghee & family recipes passed down through generations.
+                <p className="hero-sub hero-anim" style={{ animationDelay: '0.3s' }}>
+                    Crispy on the outside. Flavorful on the inside.<br />Made fresh every single day.
                 </p>
 
                 {/* CTAs */}
